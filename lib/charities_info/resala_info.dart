@@ -60,14 +60,14 @@ class ResalaScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
                       "assets/images/Resala 1.png",
-                      width: 100,
-                      height: 100,
+                      width: 100.w,
+                      height: 100.h,
                       fit: BoxFit.contain,
                     ),
                   ),
                   Text("Resala ",
                       style:
-                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32.sp)),
                 ],
               ),
             ),
@@ -89,14 +89,14 @@ class ResalaScreen extends StatelessWidget {
             Text(
               "Informations",
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 24.sp,
                 fontWeight: FontWeight.w600,
                 color: Theme.of(context).primaryColor,
               ),
             ),
             Container(
-              height: 4,
-              width: 150,
+              height: 4.h,
+              width: 150.w,
               color: Theme.of(context).primaryColor,
             ),
             SizedBox(
@@ -121,7 +121,7 @@ class ResalaScreen extends StatelessWidget {
                     Text(
                       "- 19450 ",
                       style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                   ],
                 ),
@@ -133,7 +133,7 @@ class ResalaScreen extends StatelessWidget {
             Text(
               "Bank accounts :",
               style: TextStyle(
-                  color: Theme.of(context).primaryColor, fontSize: 20),
+                  color: Theme.of(context).primaryColor, fontSize: 20.sp),
             ),
             SizedBox(
               height: 10.h,
@@ -146,21 +146,21 @@ class ResalaScreen extends StatelessWidget {
                 children: [
                   Text(
                     "- 1623060320945400012",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                   SizedBox(
                     height: 10.h,
                   ),
                   Text(
                     "- 3920001000019450  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                   SizedBox(
                     height: 10.h,
                   ),
                   Text(
                     "- 100009213842  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                 ],
               ),
@@ -185,7 +185,7 @@ class ResalaScreen extends StatelessWidget {
                     Text(
                       ":",
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 30.sp,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -195,7 +195,7 @@ class ResalaScreen extends StatelessWidget {
                     Text(
                       "Contact_us@resala.org",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 20.sp,
                           color: Theme.of(context).primaryColor,
                           decoration: TextDecoration.underline),
                     ),

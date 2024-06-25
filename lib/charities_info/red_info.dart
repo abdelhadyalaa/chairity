@@ -66,7 +66,7 @@ class RedInfoScreen extends StatelessWidget {
                   ),
                   Text("Red Crescent",
                       style:
-                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32.sp)),
                 ],
               ),
             ),
@@ -88,7 +88,7 @@ class RedInfoScreen extends StatelessWidget {
             Text(
               "Informations",
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 24.sp,
                 fontWeight: FontWeight.w600,
                 color: Theme.of(context).primaryColor,
               ),
@@ -120,7 +120,7 @@ class RedInfoScreen extends StatelessWidget {
                     Text(
                       "- 15322",
                       style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                     SizedBox(
                       height: 10.h,
@@ -128,7 +128,7 @@ class RedInfoScreen extends StatelessWidget {
                     Text(
                       "- 01150002790 ",
                       style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                     SizedBox(
                       height: 10.h,
@@ -136,7 +136,7 @@ class RedInfoScreen extends StatelessWidget {
                     Text(
                       "- 01113201617",
                       style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                   ],
                 ),
@@ -148,7 +148,7 @@ class RedInfoScreen extends StatelessWidget {
             Text(
               "Bank accounts :",
               style: TextStyle(
-                  color: Theme.of(context).primaryColor, fontSize: 20),
+                  color: Theme.of(context).primaryColor, fontSize: 20.sp),
             ),
             SizedBox(
               height: 10.h,
@@ -161,14 +161,14 @@ class RedInfoScreen extends StatelessWidget {
                 children: [
                   Text(
                     "- 911111",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                   SizedBox(
                     height: 10.h,
                   ),
                   Text(
                     "- 702379  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                 ],
               ),
@@ -193,7 +193,7 @@ class RedInfoScreen extends StatelessWidget {
                     Text(
                       ":",
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 30.sp,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -203,7 +203,7 @@ class RedInfoScreen extends StatelessWidget {
                     Text(
                       "volunteers@egyptianrc.org",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 20.sp,
                           color: Theme.of(context).primaryColor,
                           decoration: TextDecoration.underline),
                     ),

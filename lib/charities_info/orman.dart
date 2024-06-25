@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../item_add/view.dart';
 
-class LIFEMakesScreen extends StatelessWidget {
-  const LIFEMakesScreen({Key? key}) : super(key: key);
+class AlOrmanScreen extends StatelessWidget {
+  const AlOrmanScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -63,15 +63,15 @@ class LIFEMakesScreen extends StatelessWidget {
                     clipBehavior: Clip.antiAlias,
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
-                      "assets/images/LM.png",
+                      "assets/images/orman.png",
                       width: 100.w,
                       height: 100.h,
                       fit: BoxFit.contain,
                     ),
                   ),
-                  Text("LIFE Makes",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32.sp)),
+                  Text("Al Orman",
+                      style: TextStyle(
+                          fontWeight: FontWeight.w600, fontSize: 32.sp)),
                 ],
               ),
             ),
@@ -123,17 +123,9 @@ class LIFEMakesScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "- 16563  ",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
-                    ),
-                    SizedBox(
-                      height: 10.h,
-                    ),
-                    Text(
-                      "- 0216563   ",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                      "- 19455",
+                      style: TextStyle(
+                          fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                   ],
                 ),
@@ -157,22 +149,25 @@ class LIFEMakesScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "- 0773070478998401017",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                    "- 0773070506871200061",
+                    style:
+                        TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                   SizedBox(
                     height: 10.h,
                   ),
                   Text(
-                    "- 1760001000001616  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                    "- 100013947265  ",
+                    style:
+                        TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                   SizedBox(
                     height: 10.h,
                   ),
                   Text(
-                    "- 20319737747  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                    "- 1014405110010201  ",
+                    style:
+                        TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                 ],
               ),
@@ -205,7 +200,7 @@ class LIFEMakesScreen extends StatelessWidget {
                       width: 5.w,
                     ),
                     Text(
-                      "info@lifemakers.org",
+                      "info@dar-alorman.com",
                       style: TextStyle(
                           fontSize: 20.sp,
                           color: Theme.of(context).primaryColor,

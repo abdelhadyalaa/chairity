@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../item_add/view.dart';
 
-class LIFEMakesScreen extends StatelessWidget {
-  const LIFEMakesScreen({Key? key}) : super(key: key);
+class FoodBankScreen extends StatelessWidget {
+  const FoodBankScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -63,15 +63,15 @@ class LIFEMakesScreen extends StatelessWidget {
                     clipBehavior: Clip.antiAlias,
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
-                      "assets/images/LM.png",
-                      width: 100.w,
+                      "assets/images/foodbank.png",
+                      width: 60.w,
                       height: 100.h,
                       fit: BoxFit.contain,
                     ),
                   ),
-                  Text("LIFE Makes",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w600, fontSize: 32.sp)),
+                  Text("Egyptian Food Bank",
+                      style: TextStyle(
+                          fontWeight: FontWeight.w600, fontSize: 25.sp)),
                 ],
               ),
             ),
@@ -113,7 +113,7 @@ class LIFEMakesScreen extends StatelessWidget {
                 Icon(
                   Icons.phone,
                   color: Theme.of(context).primaryColor,
-                  size: 30,
+                  size: 30.sp,
                 ),
                 SizedBox(
                   width: 20.w,
@@ -123,17 +123,9 @@ class LIFEMakesScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "- 16563  ",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
-                    ),
-                    SizedBox(
-                      height: 10.h,
-                    ),
-                    Text(
-                      "- 0216563   ",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                      "- 16060 ",
+                      style: TextStyle(
+                          fontWeight: FontWeight.w400, fontSize: 20.sp),
                     ),
                   ],
                 ),
@@ -151,28 +143,15 @@ class LIFEMakesScreen extends StatelessWidget {
               height: 10.h,
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 56.0),
+              padding: const EdgeInsets.only(left: 56.0).r,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "- 0773070478998401017",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
-                  ),
-                  SizedBox(
-                    height: 10.h,
-                  ),
-                  Text(
-                    "- 1760001000001616  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
-                  ),
-                  SizedBox(
-                    height: 10.h,
-                  ),
-                  Text(
-                    "- 20319737747  ",
-                    style: TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
+                    "- 888777",
+                    style:
+                        TextStyle(fontWeight: FontWeight.w400, fontSize: 20.sp),
                   ),
                 ],
               ),
@@ -205,7 +184,7 @@ class LIFEMakesScreen extends StatelessWidget {
                       width: 5.w,
                     ),
                     Text(
-                      "info@lifemakers.org",
+                      "Info@efb.eg",
                       style: TextStyle(
                           fontSize: 20.sp,
                           color: Theme.of(context).primaryColor,
